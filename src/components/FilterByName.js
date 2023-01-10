@@ -1,4 +1,4 @@
-import '../styles/components/FilterByName.scss';
+import '../styles/components/Filters.scss';
 
 const FilterByName = (props) => {
   const handleInput = (ev) => {

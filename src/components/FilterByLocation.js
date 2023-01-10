@@ -1,10 +1,12 @@
+import '../styles/components/Filters.scss';
+
 const FilterByLocation = (props) => {
   const handleInput = (ev) => {
     props.handleFilterLocation(ev.target.value);
   };
 
   return (
-    <fieldset className='search__fieldset'>
+    <fieldset className='search__fieldset location'>
       <label className='search__label' htmlFor='location'>
         Location:
       </label>

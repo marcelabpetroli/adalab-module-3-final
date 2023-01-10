@@ -10,7 +10,7 @@ const CharacterDetail = (props) => {
     if (characterSelected !== undefined) {
       return (
         <section className='details'>
-          <h1 className='details__title'>Character Details</h1>
+          <h1 className='details__title'>Character Details!</h1>
           <li className='details__list'>
             <article className='details__article'>
               <h2 className='details__name'>{characterSelected.name}</h2>

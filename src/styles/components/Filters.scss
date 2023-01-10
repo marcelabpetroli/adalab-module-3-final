@@ -6,14 +6,17 @@
   background-color: black;
   color: white;
   letter-spacing: 0.2rem;
-  height: 18rem;
+  height: 10%;
   border-top: 0.7rem solid rgb(81, 77, 131);
   border-bottom: 0.7rem solid rgb(118, 115, 162);
 
   @media (min-width: 768px) {
     border-top: 1.3rem solid rgb(81, 77, 131);
     border-bottom: 1.3rem solid rgb(118, 115, 162);
-    height: 15rem;
+    height: 20vh;
+  }
+  @media (min-width: 1084px) {
+    height: 15vh;
   }
 
   &__stars {
@@ -72,18 +75,18 @@
 
   &__form {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 
     @media (min-width: 768px) {
       gap: 4rem;
-      flex-direction: row;
     }
   }
 
   &__label {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
 
@@ -96,7 +99,7 @@
     border-radius: 0.3rem;
     border: 0.2em solid rgb(81, 77, 131);
     color: rgb(51, 43, 105);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Zen Dots', cursive;
     letter-spacing: 0.3rem;
     padding: 0.5rem;
