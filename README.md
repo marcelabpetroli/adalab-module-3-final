@@ -6,7 +6,7 @@ The objective was to develop a web page with a list of Rick and Morty characters
 
 ## Specifications
 
-Create a responsive web page using HTML5, SAAS, React and JSX to retrieve data from an API, render the main characters of the series and create different ways for the user to filter the results.
+Create a responsive web page using HTML5, SASS, React and JSX to retrieve data from an API, render the main characters of the series and create different ways for the user to filter the results.
 
 ## The goals were:
 
